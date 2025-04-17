@@ -28,3 +28,65 @@ body {
     padding: 1.5rem;
     margin-bottom: 1rem;
 }
+
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+  
+.sidebar {
+    background-color: #1c1f4a;
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+  
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.user-info p {
+    font-size: 0.8rem;
+    color: #bdc1ff;
+    margin: 0;
+}
+  
+  .user-info h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+  
+.timeframe-selector ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+  
+  .timeframe-selector li {
+    margin-bottom: 0.5rem;
+}
+  
+.timeframe-selector a {
+    color: #bdc1ff;
+    text-decoration: none;
+}
+  
+.timeframe-selector a.active {
+    color: white;
+    font-weight: bold;
+}
+  
