@@ -20,3 +20,11 @@ body {
     background-color: #0f1424;
     padding: 2rem;
 }
+
+.card {
+    background-color: #1c1f4a;
+    color: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
